@@ -1,0 +1,116 @@
+/**
+ * Common Sense Media icon font face declaration
+ */
+@font-face {
+  font-family: 'icons';
+  src: url('icons.eot');
+  src: url('icons.eot?#iefix') format('embedded-opentype'),
+       url('icons.woff2') format('woff2'),
+       url('icons.woff') format('woff'),
+       url('icons.ttf') format('truetype'),
+       url('icons.svg#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* checkmark style */
+.checkmark {
+  letter-spacing: 0 !important;
+}
+.checkmark:before {
+  content: 'O';
+  float: left;
+  color: #249A10;
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0 !important;
+  white-space: nowrap;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.checkmark:after {
+  content: 'C';
+  float: left;
+  color: #4b4b4b;
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0 !important;
+  white-space: nowrap;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/**
+ * content grid icon styles
+ */
+
+/* all content grid icon styles */
+.content-grid-icon:before {
+  content: '';
+  float: left;
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* individual icon styles */
+.content-grid-icon.message:before {
+  content: 'm';
+}
+.content-grid-icon.role_model:before {
+  content: 'r';
+}
+.content-grid-icon.violence:before {
+  content: 'v';
+}
+.content-grid-icon.sex:before {
+  content: 's';
+}
+.content-grid-icon.language:before {
+  content: 'l';
+}
+.content-grid-icon.consumerism:before {
+  content: 'c';
+}
+.content-grid-icon.drugs:before {
+  content: 'd';
+}
+.content-grid-icon.educational:before {
+  content: 'e';
+}
+.content-grid-icon.playability:before {
+  content: 'g';
+}
+.content-grid-icon.safety:before {
+  content: 'p';
+}
